@@ -1,0 +1,41 @@
+  /* Body ka basic styling: font aur background color */
+  body {
+    font-family: Arial, sans-serif; /* Font style */
+    background: #f9f9f9; /* Light background color */
+    color: #333; /* Standard text color */
+    margin: 20px; /* Page ka margin */
+}
+
+/* Title ka style */
+h1 {
+    text-align: center; /* Title ko center align karna */
+    color: #6a1b9a; /* Title ka color (purple) */
+}
+
+/* Ordered List ka styling */
+ol {
+    padding-left: 20px; /* List items ke beech space */
+}
+
+/* List items ka basic style */
+li {
+    margin: 8px 0; /* Items ke beech space */
+}
+
+/* Parent level items ka style */
+ol > li {
+    color: #1e88e5; /* Parent list items ka color (blue) */
+    font-size: 18px; /* Font size */
+}
+
+/* Nested items ka style */
+ol li ol > li {
+    color: #43a047; /* Nested items ka color (green) */
+    font-size: 16px; /* Nested items ka font size */
+}
+
+/* Hover effect for list items */
+li:hover {
+    background: #ffe082; /* Background color jab item par mouse ho */
+    border-radius: 5px; /* Smooth corners */
+}

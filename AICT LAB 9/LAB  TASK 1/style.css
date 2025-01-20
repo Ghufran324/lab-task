@@ -1,0 +1,52 @@
+/* General styling for the page */
+body {
+    font-family: Arial, sans-serif; /* Font style for the entire page */
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4; /* Light grey background for better contrast */
+}
+
+/* Center the form container on the page */
+.form-container {
+    width: 50%; /* Set form width to 50% of the page */
+    margin: 50px auto; /* Add space on top and center horizontally */
+    background: #fff; /* White background for the form */
+    padding: 20px; /* Add space inside the container */
+    border-radius: 8px; /* Rounded corners for a modern look */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Light shadow for depth */
+}
+
+/* Style for form labels */
+label {
+    font-weight: bold; /* Make labels bold */
+    margin-top: 10px; /* Add space above each label */
+    display: block; /* Place labels on a new line */
+}
+
+/* Styling for input fields, dropdown, and textarea */
+input[type="text"], 
+select, 
+textarea {
+    width: 100%; /* Full-width inputs */
+    padding: 10px; /* Padding inside the fields */
+    margin: 8px 0 20px 0; /* Space between fields */
+    border: 1px solid #ccc; /* Light grey border */
+    border-radius: 4px; /* Rounded corners */
+    box-sizing: border-box; /* Ensure padding doesn't affect width */
+}
+
+/* Style for the submit button */
+input[type="submit"] {
+    background-color: #4CAF50; /* Green background */
+    color: white; /* White text */
+    padding: 10px 20px; /* Padding inside the button */
+    border: none; /* Remove default borders */
+    border-radius: 4px; /* Rounded corners for the button */
+    cursor: pointer; /* Show pointer cursor on hover */
+    font-size: 16px; /* Set font size for the button text */
+}
+
+/* Add hover effect to the submit button */
+input[type="submit"]:hover {
+    background-color: #45a049; /* Darker green when hovered */
+}

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Meta information for character encoding and responsiveness -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User-Friendly Form</title>
+    <!-- Linking the external CSS file -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Container to center the form on the page -->
+    <div class="form-container">
+        <!-- Start of the form -->
+        <form action="#">
+            <!-- Input field for First Name -->
+            <label for="fname">First Name</label>
+            <input type="text" id="fname" name="firstname" placeholder="Your name.." required>
+
+            <!-- Input field for Last Name -->
+            <label for="lname">Last Name</label>
+            <input type="text" id="lname" name="lastname" placeholder="Your last name.." required>
+
+            <!-- Dropdown to select the country -->
+            <label for="country">Country</label>
+            <select id="country" name="country">
+                <option value="pakistan">Pakistan</option> <!-- Added Pakistan here -->
+                <option value="australia">Australia</option>
+                <option value="canada">Canada</option>
+                <option value="usa">USA</option>
+                <option value="uk">UK</option>
+            </select>
+
+            <!-- Textarea for Subject or additional details -->
+            <label for="subject">Subject</label>
+            <textarea id="subject" name="subject" placeholder="Write something.." rows="5" required></textarea>
+
+            <!-- Submit button to send the form data -->
+            <input type="submit" value="Submit">
+        </form>
+        <!-- End of the form -->
+    </div>
+</body>
+</html>

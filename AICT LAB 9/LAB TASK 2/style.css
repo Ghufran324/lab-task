@@ -1,0 +1,61 @@
+/* Reset default browser styles to avoid unwanted margins and paddings */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Navbar container styling */
+.navbar {
+    display: flex; /* Use Flexbox for layout */
+    justify-content: space-between; /* Space out logo and nav links */
+    align-items: center; /* Align items vertically in the center */
+    background-color: #333; /* Dark background color */
+    padding: 10px 20px; /* Add padding inside the navbar */
+}
+
+/* Styling for the logo */
+.logo img {
+    height: 50px; /* Set the logo height */
+}
+
+/* Styling for the navigation links */
+.nav-links {
+    display: flex; /* Use Flexbox to arrange the links horizontally */
+    list-style: none; /* Remove default list styling */
+}
+
+.nav-links li {
+    margin-left: 20px; /* Space between each link */
+}
+
+/* Styling for the links */
+.nav-links a {
+    color: #fff; /* White text color */
+    text-decoration: none; /* Remove underlines from the links */
+    font-size: 18px; /* Set font size */
+}
+
+/* Hover effect for links */
+.nav-links a:hover {
+    color: #f39c12; /* Change color on hover */
+}
+
+/* Responsive design: for smaller screens (max width 768px) */
+@media (max-width: 768px) {
+    .navbar {
+        flex-direction: column; /* Stack the logo and links vertically */
+        align-items: flex-start; /* Align items to the left */
+    }
+
+    .nav-links {
+        flex-direction: column; /* Arrange links vertically */
+        width: 100%; /* Make the links container take full width */
+        margin-top: 10px; /* Add space between logo and links */
+    }
+
+    .nav-links li {
+        margin: 10px 0; /* Add vertical spacing between the links */
+        text-align: center; /* Center-align the links */
+    }
+}

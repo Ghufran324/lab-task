@@ -1,0 +1,32 @@
+/* Body basic styling */
+body {
+    font-family: Arial, 'Times New Roman'; /* Font family for text */
+    margin: 20px; /* Adds space around the content */
+    line-height: 2; /* Line height for better readability */
+    text-align: left; /* Aligns text to the left */
+}
+
+/* Image container ka styling */
+.image-container {
+    text-align: center; /* Centers the content inside the container */
+    margin-bottom: 30px; /* Adds space below each image container */
+}
+
+/* Image ka styling */
+img {
+    width: 80%; /* Image width is 80% of the container */
+    max-width: 600px; /* Maximum width of the image */
+    border-radius: 12px; /* Rounded corners for the image */
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.1); /* Adds a soft shadow around the image */
+}
+
+/* Heading (h2) ka styling */
+h2 {
+    color: #0f0b0b; /* Dark color for the heading */
+    margin-top: 15px; /* Adds space above the heading */
+}
+
+/* Paragraph (p) ka styling */
+p {
+    color: #0a0707; /* Dark color for the paragraph text */
+}
